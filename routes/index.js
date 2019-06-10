@@ -6,7 +6,7 @@ router.get('/', function *(next) {
   const getUserInfos = yield query('SELECT * FROM `admin_user`');
   console.log(getUserInfo,"getUserInfos")
   yield this.render('index', {
-    title: 'Hello World Koa!',
+    title: 'Hello World Koa1!',
     userinfo: getUserInfos
   });
 });

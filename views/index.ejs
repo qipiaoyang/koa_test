@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p><%= userinfo[0].id %></p>
+    <p><%= userinfo[0].phone %></p>
+    <p><%= userinfo[0].password %></p>
+    <p><%= userinfo[0].email %></p>
+    <p><%= userinfo[0].nickname %></p>
+    <p><%= userinfo[0].avatar %></p>
+    <script>
+      console.log(`<%= userinfo[0].id %>`)
+    </script>
+  </body>
+</html>
